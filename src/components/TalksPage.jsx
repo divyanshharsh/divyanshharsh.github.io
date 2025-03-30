@@ -10,7 +10,7 @@ function TalksPage() {
             <div className="archive px-4 md:px-0"> {/* Container for talks */}
                 <div className="list__item mb-8"> {/* Spacing between talk items */}
                     <article className="archive__item bg-white rounded-lg shadow-md p-6"> {/* Card styling for talk item */}
-                        <h2 className="archive__item-title text-xl font-semibold text-purple-800 mb-3" itemprop="headline"> {/* Talk title styling */}
+                        <h2 className="archive__item-title text-xl font-semibold text-blue-800 mb-3" itemprop="headline"> {/* Talk title styling */}
                             <a>AI Founders' Masterclass: Spotting large opportunities</a> {/* Link styling - adjust if needed */}
                         </h2>
                         <div className="workshop-info flex flex-col md:flex-row justify-between items-start"> {/* Flex layout for talk info */}
@@ -20,9 +20,9 @@ function TalksPage() {
                                     <FontAwesomeIcon icon={faClock} className="mr-1" aria-hidden="true" /> 26th Feb, 2025
                                 </p>
                                 <p className="archive__item-excerpt text-gray-700 text-sm mt-2"> {/* Link styling */}
-                                    <a href="#" className="text-purple-600 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
-                                    <a href="#" className="text-purple-600 hover:underline mr-2"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
-                                    <a href="#" className="text-purple-600 hover:underline"><FontAwesomeIcon icon={faVideo} className="mr-1" aria-hidden="true" /> Recording</a>
+                                    <a href="#" className="text-blue-800 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
+                                    <a href="#" className="text-blue-800 hover:underline mr-2"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
+                                    <a href="#" className="text-blue-800 hover:underline"><FontAwesomeIcon icon={faVideo} className="mr-1" aria-hidden="true" /> Recording</a>
                                 </p>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ function TalksPage() {
 
                 <div className="list__item mb-8">
                     <article className="archive__item bg-white rounded-lg shadow-md p-6">
-                        <h2 className="archive__item-title text-xl font-semibold text-purple-800 mb-3" itemprop="headline">
+                        <h2 className="archive__item-title text-xl font-semibold text-blue-700 mb-3" itemprop="headline">
                             <a>Leveraging AI for innovation and business growth</a>
                         </h2>
                         <div className="workshop-info flex flex-col md:flex-row justify-between items-start">
@@ -43,9 +43,9 @@ function TalksPage() {
                                     <FontAwesomeIcon icon={faClock} className="mr-1" aria-hidden="true" /> 24th Feb, 2025
                                 </p>
                                 <p className="archive__item-excerpt text-gray-700 text-sm mt-2">
-                                    <a href="#" className="text-purple-600 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
-                                    <a href="#" className="text-purple-600 hover:underline mr-2"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
-                                    <a href="#" className="text-purple-600 hover:underline"><FontAwesomeIcon icon={faVideo} className="mr-1" aria-hidden="true" /> Recording</a>
+                                    <a href="#" className="text-blue-800 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
+                                    <a href="#" className="text-blue-800 hover:underline mr-2"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
+                                    <a href="#" className="text-blue-800 hover:underline"><FontAwesomeIcon icon={faVideo} className="mr-1" aria-hidden="true" /> Recording</a>
                                 </p>
                             </div>
                         </div>

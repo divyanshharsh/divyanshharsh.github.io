@@ -3,7 +3,7 @@ import { FaLinkedin, FaTwitter, FaGlobe, FaEnvelope, FaGithub } from 'react-icon
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-12 relative">
+    <footer className="bg-blue-800 text-white py-12 relative">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Copyright Section */}
@@ -76,7 +76,7 @@ function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-700 mt-12 pt-8 text-center">
+        <div className="border-gray-400 mt-12 pt-8 text-center">
           <p className="text-gray-400 text-sm">
             Empowering businesses through AI innovation and strategic leadership
           </p>

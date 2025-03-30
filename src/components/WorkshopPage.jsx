@@ -10,7 +10,7 @@ function WorkshopPage() {
             <div className="archive px-4 md:px-0"> {/* Container for workshops */}
                 <div className="list__item mb-8"> {/* Spacing between workshop items */}
                     <article className="archive__item bg-white rounded-lg shadow-md p-6"> {/* Card styling for workshop item */}
-                        <h2 className="archive__item-title text-xl font-semibold text-purple-800 mb-3" itemprop="headline"> {/* Workshop title styling */}
+                        <h2 className="archive__item-title text-xl font-semibold text-blue-800 mb-3" itemprop="headline"> {/* Workshop title styling */}
                             <a>Bootcamp for Natural Language Processing</a>
                         </h2>
                         <div className="workshop-info flex flex-col md:flex-row justify-between items-start"> {/* Flex layout for workshop info */}
@@ -20,8 +20,8 @@ function WorkshopPage() {
                                     <FontAwesomeIcon icon={faClock} className="mr-1" aria-hidden="true" /> JUL 2018
                                 </p>
                                 <p className="archive__item-excerpt text-gray-700 text-sm mt-2"> {/* Link styling */}
-                                    <a href="https://anthillinside.in/2018-july-nlp-bootcamp/" className="text-purple-600 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
-                                    <a href="https://www.slideshare.net/anujgupta5095/nlp-bootcamp-2018-representation-learning-of-text-for-nlp" className="text-purple-600 hover:underline"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
+                                    <a href="https://anthillinside.in/2018-july-nlp-bootcamp/" className="text-blue-700 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
+                                    <a href="https://www.slideshare.net/anujgupta5095/nlp-bootcamp-2018-representation-learning-of-text-for-nlp" className="text-blue-800 hover:underline"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
                                 </p>
                             </div>
                         </div>
@@ -33,8 +33,8 @@ function WorkshopPage() {
                                     <FontAwesomeIcon icon={faClock} className="mr-1" aria-hidden="true" /> JUL 2019
                                 </p>
                                 <p className="archive__item-excerpt text-gray-700 text-sm mt-2">
-                                    <a href="https://hasgeek.com/fifthelephant/2019-july-nlp-bootcamp/" className="text-purple-600 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
-                                    <a href="https://www.slideshare.net/anujgupta5095/nlp-bootcamp-2018-representation-learning-of-text-for-nlp" className="text-purple-600 hover:underline"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
+                                    <a href="https://hasgeek.com/fifthelephant/2019-july-nlp-bootcamp/" className="text-blue-800 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
+                                    <a href="https://www.slideshare.net/anujgupta5095/nlp-bootcamp-2018-representation-learning-of-text-for-nlp" className="text-blue-800 hover:underline"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
                                 </p>
                             </div>
                         </div>
@@ -45,8 +45,8 @@ function WorkshopPage() {
                                     <FontAwesomeIcon icon={faClock} className="mr-1" aria-hidden="true" /> MAY 2018
                                 </p>
                                 <p className="archive__item-excerpt text-gray-700 text-sm mt-2">
-                                    <a href="https://anthillinside.in/2018-nlp-bootcamp/" className="text-purple-600 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
-                                    <a href="#" className="text-purple-600 hover:underline"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
+                                    <a href="https://anthillinside.in/2018-nlp-bootcamp/" className="text-blue-800 hover:underline mr-2"><FontAwesomeIcon icon={faLink} className="mr-1" aria-hidden="true" /> Website</a>
+                                    <a href="#" className="text-blue-800 hover:underline"><FontAwesomeIcon icon={faWindowMaximize} className="mr-1" aria-hidden="true" /> Slides</a>
                                 </p>
                             </div>
                         </div>

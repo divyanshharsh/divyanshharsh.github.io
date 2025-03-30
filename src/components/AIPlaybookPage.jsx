@@ -4,7 +4,7 @@ function ContentSection() {
     return (
         <div className="content right-column w-4/5 bg-white p-5 rounded-lg shadow-md">
             {/* Tailwind classes for container */}
-            <h2 className="section-title text-3xl font-bold text-purple-700 mb-4">
+            <h2 className="section-title text-3xl font-bold text-blue-800 mb-4">
                 {/* Tailwind classes for section title */}
                 Anuj Gupta
             </h2>
