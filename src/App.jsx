@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom'; // ❌ No Router here!
 import Navbar from './components/Navbar';
 import ContentSection from './components/ContentSection';
 import Sidebar from './components/Sidebar';
@@ -15,29 +15,27 @@ import AIPlaybookPage from './components/AIPlaybookPage';
 
 function App() {
   return (
-    <Router>  {/* Changed to HashRouter */}
-      <div className="min-h-screen flex flex-col bg-gray-50">
-        <Navbar />
-        <main className="flex-grow container mx-auto px-4 pt-24 pb-8">
-          <div className="flex flex-col md:flex-row gap-8">
-            <Sidebar />
-            <div className="flex-grow">
-              <Routes>
-                <Route path="/" element={<ContentSection />} />
-                <Route path="/pages/book" element={<BookPage />} />
-                <Route path="/pages/blog-post" element={<BlogPostPage />} />
-                <Route path="/pages/talk" element={<TalksPage />} />
-                <Route path="/pages/workshop" element={<WorkshopPage />} />
-                <Route path="/pages/publication" element={<PublicationPage />} />
-                <Route path="/pages/coaching" element={<CoachingPage />} />
-                <Route path="/pages/ai-playbook" element={<AIPlaybookPage />} />
-              </Routes>
-            </div>
+    <div className="min-h-screen flex flex-col bg-gray-50">
+      <Navbar />
+      <main className="flex-grow container mx-auto px-4 pt-24 pb-8">
+        <div className="flex flex-col md:flex-row gap-8">
+          <Sidebar />
+          <div className="flex-grow">
+            <Routes>
+              <Route path="/" element={<ContentSection />} />
+              <Route path="/pages/book" element={<BookPage />} />
+              <Route path="/pages/blog-post" element={<BlogPostPage />} />
+              <Route path="/pages/talk" element={<TalksPage />} />
+              <Route path="/pages/workshop" element={<WorkshopPage />} />
+              <Route path="/pages/publication" element={<PublicationPage />} />
+              <Route path="/pages/coaching" element={<CoachingPage />} />
+              <Route path="/pages/ai-playbook" element={<AIPlaybookPage />} />
+            </Routes>
           </div>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+        </div>
+      </main>
+      <Footer />
+    </div>
   );
 }
 
